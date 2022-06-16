@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+button {
+    margin-top: inherit;
+    margin-left: inherit;
+
+    background-color: #91e991;
+    border: 1px solid #7ac97a;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ff0000;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+
+.area-botao {
+    display: flex;
+    width: 450px;
+    height: 280px;
+
+    background-image: url(RED-BUTTON.png);
+    background-size: cover;
+    background-position: center;
+    
+    margin-inline: 35%;
+}
+
+.area-botao:hover {
+    background-image: url(RED-BUTTON-TEXT.png);
+    background-size: cover;
+    background-position: center;
+    
+    cursor: pointer;
+}
